@@ -1,15 +1,14 @@
-// write code for Welcome component here
+import React from 'react';
 
-import React from 'react'
+const Welcome = ({ name }) => {
+  if (!name) name = 'Guest'; // Default to 'Guest' if no name is provided
 
-const Welcome = ({name}) => {
-if(!name) name = 'Guest'; //
   return (
     <div>
-        <p>Hey !<h1>{name}</h1></p>
-        <h2>Welcome to School.</h2>
+      <h1>Hey {name}!</h1>
+      <h2>Welcome to School.</h2>
     </div>
-  )
-}
+  );
+};
 
-export default Welcome
+export default Welcome;
