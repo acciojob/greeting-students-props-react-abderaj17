@@ -3,6 +3,7 @@
 import React from 'react'
 
 const Welcome = ({name}) => {
+if(!name) name = 'Guest'; //
   return (
     <div>
         <p>Hey !<h1>{name}</h1></p>

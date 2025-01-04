@@ -4,7 +4,7 @@ import Welcome from './Welcome';
 
 const App = () => {
 
-  const studentName = "Adarsh";
+  const studentName = "Lavdesh";
   return (
     <Welcome name={studentName} />
   )
